@@ -40,7 +40,7 @@ const EyeCheck: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   const navigate = useNavigate();
-  const BACKEND_URL = "https://outstanding-clarity-production.up.railway.app/";
+  const BACKEND_URL = "https://outstanding-clarity-production.up.railway.app";
 
   // Image handling logic
   const processFile = (file: File | null) => {
