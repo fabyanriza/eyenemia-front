@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Environment variables
+.env
+.env.*.local
+.vite-env.d.ts
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
