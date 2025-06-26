@@ -113,7 +113,7 @@ const Hasil: React.FC = () => {
     pdf.setFontSize(12);
     pdf.setTextColor(75, 85, 99);
     pdf.text(
-      `Tingkat Kepercayaan AI: ${(result.confidence * 100).toFixed(1)}%`,
+      `Probabilitas Anemia: ${(result.confidence * 100).toFixed(1)}%`,
       20,
       yPos
     );
@@ -265,7 +265,7 @@ const Hasil: React.FC = () => {
                       </span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Akurasi AI:</span>
+                      <span>Probabilitas Anemia:</span>
                       <span className="font-semibold">
                         {(result.confidence * 100).toFixed(1)}%
                       </span>
