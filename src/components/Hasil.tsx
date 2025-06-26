@@ -237,10 +237,6 @@ const Hasil: React.FC = () => {
                     >
                       {isAnemia ? "Terindikasi Anemia" : "Normal"}
                     </h2>
-                    <p className="text-gray-600 text-sm mt-1">
-                      Tingkat kepercayaan:{" "}
-                      {(result.confidence * 100).toFixed(1)}%
-                    </p>
                   </div>
                 </div>
               </div>
